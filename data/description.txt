@@ -1,0 +1,39 @@
+# Dataset Description
+
+## Files
+1. train.csv - the training set
+2. test_data_with_inputs.csv - the test set with the input features
+3. sample_output.csv - a sample submission file in the correct format
+
+  
+## Columns
+Please find the details for the datset attributes:-
+
+1. s_no: Movie ID
+2. director_name: Name of the movie director
+3. duration: Movie duration in minutes
+4. director_facebook_likes: Number of likes for the Director on his Facebook Page
+5. actor_3_facebook_likes: No of likes for the actor 3 on his/her Facebook Page
+6. actor2_name: Name of actor 2
+7. actor_1_facebook_likes: No. of likes for the actor 1 on his/her facebook Page
+8. gross: Gross earnings of the movie in Dollars
+9. genres: Film categorization like ‘Animation’, ‘Comedy’, ‘Romance’, ‘Horror’, ‘Sci-Fi’, ‘Action’, ‘Family’. Note: Multiple categories per movie can exist, each separated by a '|'.
+10. actor_1_name: Name of the actor 1
+11. movie_title: Title of the movie
+12. num_voted_users: No. of people who voted for the movie
+13. cast_total_facebook_likes: Total facebook likes for the movie
+14. actor_3_name: Name of the actor 3
+15. facenumber_in_poster: No. of actors who featured in the movie poster
+16. plot_keywords: Keywords/phrases describing the movie plots, separated by '|'
+17. language: Language of the movie
+18. country: Country where movie is produced
+19. content_rating: Content rating of the movie
+20. budget: Budget of the movie in Dollars
+21. title_year: The year in which the movie is released
+22. actor_2_facebook_likes: facebook likes for the actor 2
+23. aspect_ratio: Aspect ratio the movie was made in
+24. movie_facebook_likes: Total no of facebook likes for the movie
+25. profit: (gross - budget)
+26. profit percentage: profit/gross
+27. critic_review_ratio: % of critics voted, out of total voters
+28. imdb_score: IMDB score of the movie
