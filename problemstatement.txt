@@ -1,0 +1,25 @@
+Overview
+The goal of this competition is to figure out the best possible solution to predicting the IMDB score of the model, given some very interesting features such as - Budget used, Number of Facebook likes of the actors in the movie, number of critic views, etc.
+
+Make sure to focus on each part of the Pattern Recognition pipeline to submit the best possible solution you can.
+
+You will be allowed to submit at max 5 solutions, and your top 2 shall be considered for the final leaderboard.
+
+Submission Details
+Make sure you adhere to the output format, as your evaluation is automated, and won't pass the test cases if there is any mismatch in outputs.
+
+Submit your Kaggle Notebooks as well. We'll go through them after the end of the competition to confirm the leaderboard positions.
+
+Start: Sep 22, 2023 End: Sep 26, 2023
+
+Evaluation
+Submissions are evaluated on Mean Squared Error of the predicted and ground truth IMDB scores.
+
+Submission File
+For each ID in the test set, you must predict a IMDB score (0 to 10). The file should contain a header and have the following format:
+
+s_no,imdb_score 
+20,8.1 
+1,7.3 
+38,1.9 
+4,4.9
